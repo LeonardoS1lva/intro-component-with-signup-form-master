@@ -18,41 +18,49 @@
 </head>
 
 <body>
-  <section class="description">
-    <h1>Learn to code by watching others</h1>
-    <p>See how experienced developers solve problems in real-time. Watching scripted tutorials is great,
-      but understanding how developers think is invaluable.</p>
-  </section>
-  <section class="form">
-    <div class="subscription"><b>Try it free 7 days</b> then $20/mo. thereafter</div>
-    <div class="card">
+  <main>
+    <section class="description">
+      <h1>Learn to code by watching others</h1>
+      <h3>See how experienced developers solve problems in real-time. Watching scripted tutorials is great,
+        but understanding how developers think is invaluable.</h3>
+    </section>
+    <section class="form">
+      <div class="subscription"><b>Try it free 7 days</b> then $20/mo. thereafter</div>
+      <div class="card">
 
-      <div class="container">
-        <input id="txt-name" type="text" placeholder="First Name">
-        <img src="./images/icon-error.svg" alt="icon error">
-      </div>
-      <small id="error-name"></small>
-      <div class="container">
-        <input id="txt-lastname" type="text" placeholder="Last Name">
-        <img src="./images/icon-error.svg" alt="icon error">
-      </div>
-      <small id="error-lastname"></small>
-      <div class="container">
-        <input id="txt-email" type="email" placeholder="Email Address">
-        <img src="./images/icon-error.svg" alt="icon error">
-      </div>
-      <small id="error-email"></small>
-      <div class="container">
-        <input id="txt-password" type="password" placeholder="Password">
-        <img src="./images/icon-error.svg" alt="icon error">
-      </div>
-      <small id="error-password"></small>
+        <div class="container">
+          <label for="txt-name"></label>
+          <input id="txt-name" type="text" placeholder="First Name">
+          <img src="./images/icon-error.svg" alt="Error: Required field">
+        </div>
+        <small id="error-name"></small>
+        <div class="container">
+          <label for="txt-lastname"></label>
+          <input id="txt-lastname" type="text" placeholder="Last Name">
+          <img src="./images/icon-error.svg" alt="Error: Required field">
+        </div>
+        <small id="error-lastname"></small>
+        <div class="container">
+          <label for="txt-email"></label>
+          <input id="txt-email" type="email" placeholder="Email Address">
+          <img src="./images/icon-error.svg" alt="Error: Required field">
+        </div>
+        <small id="error-email"></small>
+        <div class="container">
+          <label for="txt-password"></label>
+          <input id="txt-password" type="password" placeholder="Password">
+          <img src="./images/icon-error.svg" alt="Error: Required field">
+        </div>
+        <small id="error-password"></small>
 
-      <button id="btn-submit">Claim your free trial</button>
+        <button id="btn-submit" value="Claim your free trial">Claim your free trial</button>
 
-      <small>By clicking the button, you are agreeing to our <a href="#">Terms and Services</a></small>
-    </div>
-  </section>
+        <small>By clicking the button, you are agreeing to our
+          <a href="#"><strong>Terms and Services</strong></a>
+        </small>
+      </div>
+    </section>
+  </main>
   <script src="./src/script.js"></script>
 </body>
 
