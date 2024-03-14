@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+
+  <title>Frontend Mentor | Intro component with sign up form</title>
+
+  <link rel="stylesheet" href="./src/style.css">
+</head>
+
+<body>
+  <section class="description">
+    <h1>Learn to code by watching others</h1>
+    <p>See how experienced developers solve problems in real-time. Watching scripted tutorials is great,
+      but understanding how developers think is invaluable.</p>
+  </section>
+  <section class="form">
+    <div class="subscription"><b>Try it free 7 days</b> then $20/mo. thereafter</div>
+    <div class="card">
+
+      <div class="container">
+        <input id="txt-name" type="text" placeholder="First Name">
+        <img src="./images/icon-error.svg" alt="icon error">
+      </div>
+      <small id="error-name"></small>
+      <div class="container">
+        <input id="txt-lastname" type="text" placeholder="Last Name">
+        <img src="./images/icon-error.svg" alt="icon error">
+      </div>
+      <small id="error-lastname"></small>
+      <div class="container">
+        <input id="txt-email" type="email" placeholder="Email Address">
+        <img src="./images/icon-error.svg" alt="icon error">
+      </div>
+      <small id="error-email"></small>
+      <div class="container">
+        <input id="txt-password" type="password" placeholder="Password">
+        <img src="./images/icon-error.svg" alt="icon error">
+      </div>
+      <small id="error-password"></small>
+
+      <button id="btn-submit">Claim your free trial</button>
+
+      <small>By clicking the button, you are agreeing to our <a href="#">Terms and Services</a></small>
+    </div>
+  </section>
+  <script src="./src/script.js"></script>
+</body>
+
+</html>
